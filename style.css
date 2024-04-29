@@ -1,0 +1,74 @@
+ @import url("./about.css");
+@import url("./contact.css");
+
+
+h1{
+    color: red;
+} 
+
+ img.align-left {
+    float: left;
+    margin-right: 10px;}
+    img.align-right {
+    float: right;
+    margin-left: 10px;}
+    img.medium {
+    width: 250px;
+    height: 250px;} */
+
+ .box{
+        vertical-align: middle;
+        margin: auto;
+    }
+    img{
+        width: 200px;
+        display: inline-block;
+    }
+
+    p{
+        width: 300px;
+        display: inline-block;  
+    } 
+
+.box {
+    width: 700px;
+    height: 700px;
+    background-color: aqua;
+    margin: auto;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* background-image: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-blossoming-rose-flower-royalty-free-image-1580853844.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    box-shadow: 8px 8px 2px lightgreen;
+    outline: 6px  solid rgb(14, 14, 14) ;
+    border: 6px  solid rgb(238, 233, 233) ;
+
+    background: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-blossoming-rose-flower-royalty-free-image-1580853844.jpg) no-repeat center ;
+    background-size: cover;
+}
+
+.gradient{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,113,121,1) 52%, rgba(0,212,255,1) 100%);
+}
+
+a{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 1em;
+    background-color: aquamarine;
+    color: blueviolet;
+}
